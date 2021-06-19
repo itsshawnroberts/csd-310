@@ -1,6 +1,7 @@
 # Shawn Roberts
 # 06/18/2021
 # 5.2 Pytech: Collection Creation
+# github: git@github.com:itsshawnroberts/csd-310.git
 
 from pymongo import MongoClient
 
