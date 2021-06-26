@@ -14,7 +14,7 @@ client = MongoClient(url)
 db = client.pytech
 
 # Telling Python to find the documents we want to we in the output.
-docs = db.students.find()
+docs = db.students.find({})
 
 print("-- DISPLAYING STUDENTS DOCUMENTS FROM find() QUERY -- ")
 
